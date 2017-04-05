@@ -68,9 +68,7 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     //mark action
     
-    @IBAction func buttonSend(_ sender: UIButton) {
-        if isOk { return }
-            
+    @IBAction func buttonSend(_ sender: UIButton) {            
         let url = "http://www.bragancatechday.com.br/api/v1/user/create_user"
         var param = [String : Any]()
        
