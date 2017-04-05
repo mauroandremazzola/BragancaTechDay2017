@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WNi-Sn-2wb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WNi-Sn-2wb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -33,7 +33,7 @@
                                         <rect key="frame" x="8" y="5" width="359" height="476"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="T8q-0e-Vw8">
-                                                <rect key="frame" x="0.0" y="160" width="359" height="156"/>
+                                                <rect key="frame" x="0.0" y="161" width="359" height="156"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="BRAGANÇA TECH DAY 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crk-zT-5DK">
                                                         <rect key="frame" x="35" y="0.0" width="289" height="26"/>
@@ -42,19 +42,19 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O primeiro evento de tecnologia mobile da região" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjr-jv-hC5">
-                                                        <rect key="frame" x="15.5" y="36" width="328" height="40"/>
+                                                        <rect key="frame" x="16" y="36" width="328" height="40"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 de Maio - Fatec Bragança Paulista" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M5-BW-hou">
-                                                        <rect key="frame" x="36.5" y="86" width="286.5" height="20"/>
+                                                        <rect key="frame" x="36" y="86" width="287" height="20"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. das Indústrias, 130 - Uberaba, Bragança Paulista - SP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8L-j7-oAI">
-                                                        <rect key="frame" x="12.5" y="116" width="334.5" height="40"/>
+                                                        <rect key="frame" x="12" y="116" width="335" height="40"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -116,16 +116,16 @@
                                                 <rect key="frame" x="315" y="0.0" width="50" height="50"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8u7-JA-6lX">
-                                                        <rect key="frame" x="9.5" y="3.5" width="32.5" height="43.5"/>
+                                                        <rect key="frame" x="9" y="3" width="33" height="44"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRm-0f-NW2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="33" height="21"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-t2-Igt">
-                                                                <rect key="frame" x="5.5" y="20.5" width="21.5" height="23"/>
+                                                                <rect key="frame" x="6" y="21" width="22" height="23"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -231,7 +231,7 @@
                                 <rect key="frame" x="16" y="87" width="343" height="530"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cij-N2-mBL">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="834"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="1010"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MtZ-OQ-Xca">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
@@ -348,7 +348,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eqg-uu-Bwf">
-                                                <rect key="frame" x="37.5" y="416" width="268" height="418"/>
+                                                <rect key="frame" x="37.5" y="416" width="268" height="594"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
@@ -394,7 +394,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOh-Jt-Wt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="1109"/>
+            <point key="canvasLocation" x="137" y="887"/>
         </scene>
         <!--Parceiros-->
         <scene sceneID="Kca-P1-YKS">
@@ -492,7 +492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azF-de-7FJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134.78260869565219" y="1099.7282608695652"/>
+            <point key="canvasLocation" x="-697" y="138"/>
         </scene>
         <!--Palestrantes-->
         <scene sceneID="8Y3-3u-IiG">
@@ -533,41 +533,39 @@
                                                     <rect key="frame" x="8" y="5" width="359" height="79"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OGq-TJ-khL">
-                                                            <rect key="frame" x="0.0" y="15" width="50" height="50"/>
+                                                            <rect key="frame" x="0.0" y="14.5" width="50" height="50"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="l6o-Ny-cVC"/>
                                                                 <constraint firstAttribute="width" secondItem="OGq-TJ-khL" secondAttribute="height" id="uhs-P3-n5c"/>
                                                             </constraints>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="25"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                    <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                    <real key="value" value="0.5"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
-                                                            </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Fvd-sl-X3h">
-                                                            <rect key="frame" x="55" y="18" width="304" height="43"/>
+                                                            <rect key="frame" x="55" y="19.5" width="249" height="40"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0da-Mr-On4">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="24"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="249" height="21"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                                     <color key="textColor" red="0.1843137255" green="0.57647058819999997" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
+                                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                                    </variation>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" text="desc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQ3-e4-gX4">
-                                                                    <rect key="frame" x="0.0" y="26" width="304" height="17"/>
+                                                                    <rect key="frame" x="0.0" y="23" width="249" height="17"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LinkedIn" translatesAutoresizingMaskIntoConstraints="NO" id="E5d-UH-MXn">
+                                                            <rect key="frame" x="309" y="14.5" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="E5d-UH-MXn" secondAttribute="height" id="YwZ-yr-eRx"/>
+                                                                <constraint firstAttribute="width" constant="50" id="vBf-co-oWd"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
@@ -689,7 +687,7 @@
                     </subviews>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="884.05797101449286" y="958.69565217391312"/>
+            <point key="canvasLocation" x="884" y="888"/>
         </scene>
         <!--Sobre-->
         <scene sceneID="Yn1-Yp-1PK">
@@ -781,7 +779,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kor-Y8-o1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-827.536231884058" y="192.39130434782609"/>
+            <point key="canvasLocation" x="-667" y="856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="H0n-9q-emx">
@@ -822,6 +820,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
         <image name="Home__selected" width="25" height="25"/>
         <image name="Info" width="25" height="25"/>
         <image name="Info_selected" width="25" height="25"/>
+        <image name="LinkedIn" width="48" height="48"/>
         <image name="Speaker" width="25" height="25"/>
         <image name="Speaker_selected" width="25" height="25"/>
         <image name="Xamarin" width="32" height="32"/>

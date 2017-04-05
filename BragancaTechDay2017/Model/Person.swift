@@ -13,11 +13,13 @@ struct Person {
     var name : String
     var image : String
     var desc : String
+    var bio : URL
     
-    init(name:String, desc:String, image:String) {
+    init(name:String, desc:String, image:String, bio:URL?) {
         self.name = name
         self.image = image
         self.desc = desc
+        self.bio = bio ?? URL(string: "http://www.bragancatechday.com.br")!
     }
     
 }
