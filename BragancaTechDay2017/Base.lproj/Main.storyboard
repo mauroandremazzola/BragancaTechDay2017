@@ -27,13 +27,13 @@
                                 <rect key="frame" x="0.0" y="77" width="375" height="541"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="event_logo" translatesAutoresizingMaskIntoConstraints="NO" id="rdC-We-vWN">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="541"/>
+                                        <rect key="frame" x="0.0" y="1" width="375" height="540"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vY0-qV-nOg">
                                         <rect key="frame" x="8" y="5" width="359" height="476"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="T8q-0e-Vw8">
-                                                <rect key="frame" x="0.0" y="161" width="359" height="156"/>
+                                                <rect key="frame" x="0.0" y="160" width="359" height="156"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="BRAGANÇA TECH DAY 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crk-zT-5DK">
                                                         <rect key="frame" x="35" y="0.0" width="289" height="26"/>
@@ -42,19 +42,19 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O primeiro evento de tecnologia mobile da região" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjr-jv-hC5">
-                                                        <rect key="frame" x="16" y="36" width="328" height="40"/>
+                                                        <rect key="frame" x="15.5" y="36" width="328" height="40"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 de Maio - Fatec Bragança Paulista" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M5-BW-hou">
-                                                        <rect key="frame" x="36" y="86" width="287" height="20"/>
+                                                        <rect key="frame" x="36.5" y="86" width="286.5" height="20"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. das Indústrias, 130 - Uberaba, Bragança Paulista - SP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8L-j7-oAI">
-                                                        <rect key="frame" x="12" y="116" width="335" height="40"/>
+                                                        <rect key="frame" x="12.5" y="116" width="334.5" height="40"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -116,16 +116,16 @@
                                                 <rect key="frame" x="315" y="0.0" width="50" height="50"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8u7-JA-6lX">
-                                                        <rect key="frame" x="9" y="3" width="33" height="44"/>
+                                                        <rect key="frame" x="9.5" y="3.5" width="32.5" height="43.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRm-0f-NW2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="33" height="21"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="32.5" height="20.5"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-t2-Igt">
-                                                                <rect key="frame" x="6" y="21" width="22" height="23"/>
+                                                                <rect key="frame" x="5.5" y="20.5" width="21.5" height="23"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -161,7 +161,7 @@
                                     <constraint firstAttribute="bottom" secondItem="rdC-We-vWN" secondAttribute="bottom" id="MEP-DI-ox9"/>
                                     <constraint firstAttribute="bottom" secondItem="Stw-nj-DaT" secondAttribute="bottom" constant="5" id="TGR-dB-Fff"/>
                                     <constraint firstItem="Stw-nj-DaT" firstAttribute="leading" secondItem="tOq-lW-8uh" secondAttribute="leading" constant="5" id="VhH-ZL-KgK"/>
-                                    <constraint firstItem="rdC-We-vWN" firstAttribute="top" secondItem="tOq-lW-8uh" secondAttribute="top" id="XbP-fR-hWT"/>
+                                    <constraint firstItem="rdC-We-vWN" firstAttribute="top" secondItem="tOq-lW-8uh" secondAttribute="top" constant="1" id="XbP-fR-hWT"/>
                                     <constraint firstAttribute="trailing" secondItem="Stw-nj-DaT" secondAttribute="trailing" constant="5" id="jjl-R5-mUg"/>
                                     <constraint firstItem="vY0-qV-nOg" firstAttribute="leading" secondItem="tOq-lW-8uh" secondAttribute="leadingMargin" id="o8t-lz-ZEg"/>
                                     <constraint firstItem="rdC-We-vWN" firstAttribute="leading" secondItem="tOq-lW-8uh" secondAttribute="leading" id="xn7-l3-SxD"/>
@@ -231,7 +231,7 @@
                                 <rect key="frame" x="16" y="87" width="343" height="530"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cij-N2-mBL">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="1010"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="1090"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MtZ-OQ-Xca">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
@@ -348,7 +348,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eqg-uu-Bwf">
-                                                <rect key="frame" x="37.5" y="416" width="268" height="594"/>
+                                                <rect key="frame" x="37.5" y="416" width="268" height="674"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
@@ -409,7 +409,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsr-Tg-tG5">
-                                <rect key="frame" x="0.0" y="20" width="375" height="56.5"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56.5" id="srz-A3-n5k"/>
                                 </constraints>
@@ -421,7 +421,7 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="150" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="a2s-B4-ha3">
-                                <rect key="frame" x="0.0" y="77.5" width="375" height="540.5"/>
+                                <rect key="frame" x="0.0" y="78" width="375" height="540"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartnerCell" id="zsq-bQ-Tvp" customClass="PartnerCell" customModule="BragancaTechDay2017" customModuleProvider="target">
@@ -507,7 +507,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LqU-gP-EZK">
-                                <rect key="frame" x="0.0" y="20" width="375" height="56.5"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56.5" id="UAz-1C-Rap"/>
                                 </constraints>
@@ -519,7 +519,7 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="4wK-Ej-il1">
-                                <rect key="frame" x="0.0" y="77.5" width="375" height="540.5"/>
+                                <rect key="frame" x="0.0" y="78" width="375" height="540"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SpeakerCell" id="0kk-TL-U5D" customClass="SpeakerCell" customModule="BragancaTechDay2017" customModuleProvider="target">
@@ -698,7 +698,7 @@
                         <viewControllerLayoutGuide type="bottom" id="t5d-WW-CjC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uuL-Zd-bng">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KB5-iE-yEh">
@@ -714,38 +714,91 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="event_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pze-6r-m8i">
-                                <rect key="frame" x="0.0" y="78" width="414" height="609"/>
+                                <rect key="frame" x="0.0" y="78" width="414" height="873"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qm9-ZN-SwG">
-                                <rect key="frame" x="20" y="78" width="374" height="609"/>
+                                <rect key="frame" x="20" y="78" width="374" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDh-7J-zKP">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="520"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="566"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtP-tP-xSC">
-                                                <rect key="frame" x="0.0" y="10" width="374" height="500"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="500" id="usl-O0-Yd4"/>
-                                                </constraints>
-                                                <string key="text">Bragança Tech Day é um evento voltado para o público em geral, e entusiastas da área de Tecnologia da Informação.
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="frk-pd-MUu">
+                                                <rect key="frame" x="0.0" y="10" width="374" height="556"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uis-Z6-rJj">
+                                                        <rect key="frame" x="20" y="0.0" width="334.5" height="70"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 de Maio - Fatec Bragança Paulista" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8E-kS-qbp">
+                                                                <rect key="frame" x="24" y="0.0" width="286.5" height="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. das Indústrias, 130 - Uberaba, Bragança Paulista - SP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-cJ-lXn">
+                                                                <rect key="frame" x="0.0" y="30" width="334.5" height="40"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="b1i-5v-WT3"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encontre no seu app:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt8-Ii-pGf">
+                                                        <rect key="frame" x="106" y="80" width="162" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vkI-Sw-ITr">
+                                                        <rect key="frame" x="122" y="110.5" width="130" height="50"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google Maps" translatesAutoresizingMaskIntoConstraints="NO" id="eRc-da-M6c">
+                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="UBq-Fn-uAn"/>
+                                                                    <constraint firstAttribute="width" constant="50" id="tJq-Gk-Mjd"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waze" translatesAutoresizingMaskIntoConstraints="NO" id="7Zb-GX-MQ3">
+                                                                <rect key="frame" x="80" y="0.0" width="50" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="50" id="U1v-G3-Abv"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="cUh-Dw-g8Q"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtP-tP-xSC">
+                                                        <rect key="frame" x="0.0" y="170.5" width="374" height="385.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="usl-O0-Yd4"/>
+                                                        </constraints>
+                                                        <string key="text">Bragança Tech Day é um evento voltado para o público em geral, e entusiastas da área de Tecnologia da Informação.
 
 Mesmo com a recessão que o Brasil se encontra, observamos que a área de TI é uma das menos afetadas. Por isso convidamos você para participar e descobrir como ingressar nesse meio com vários profissionais da área.
 
 As palestras/talks serão voltadas para o desenvolvimento mobile (iOS, android, xamarin, web-services) entre outros...
 
 O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecnologia de Bragança Paulista. Para participar você deverá fazer a inscrição aqui no site e contribuir com 1 KG de alimento não perecível, que será doado.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                                <string key="userLabel">Bragança Tech Day é um evento voltado para o público em geral, e entusiastas da área de Tecnologia da Informação.  Mesmo com a recessão que o Brasil se encontra, observamos que a área de TI é uma das menos afetadas. Por isso convidamos você para participar e descobrir como ingressar nesse meio com vários profissionais da área.  As palestras/talks serão voltadas para o desenvolvimento mobile (iOS, android, xamarin, web-services) entre outros...  O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecnologia de Bragança Paulista. Para participar você deverá fazer a inscrição aqui no site e contribuir com 1 KG de alimento não perecível, que será doado.</string>
-                                            </label>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <string key="userLabel">Bragança Tech Day é um evento voltado para o público em geral, e entusiastas da área de Tecnologia da Informação.  Mesmo com a recessão que o Brasil se encontra, observamos que a área de TI é uma das menos afetadas. Por isso convidamos você para participar e descobrir como ingressar nesse meio com vários profissionais da área.  As palestras/talks serão voltadas para o desenvolvimento mobile (iOS, android, xamarin, web-services) entre outros...  O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecnologia de Bragança Paulista. Para participar você deverá fazer a inscrição aqui no site e contribuir com 1 KG de alimento não perecível, que será doado.</string>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="OtP-tP-xSC" firstAttribute="width" secondItem="frk-pd-MUu" secondAttribute="width" id="dpr-Au-8RV"/>
+                                                </constraints>
+                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="OtP-tP-xSC" secondAttribute="bottom" constant="10" id="3HF-EI-vxm"/>
-                                            <constraint firstItem="OtP-tP-xSC" firstAttribute="leading" secondItem="qDh-7J-zKP" secondAttribute="leading" id="K5g-QT-KMh"/>
-                                            <constraint firstItem="OtP-tP-xSC" firstAttribute="top" secondItem="qDh-7J-zKP" secondAttribute="top" constant="10" id="bbD-PH-p15"/>
-                                            <constraint firstAttribute="trailing" secondItem="OtP-tP-xSC" secondAttribute="trailing" id="fpL-R1-Lgi"/>
+                                            <constraint firstAttribute="bottom" secondItem="frk-pd-MUu" secondAttribute="bottom" id="0bM-nE-pxD"/>
+                                            <constraint firstAttribute="trailing" secondItem="frk-pd-MUu" secondAttribute="trailing" id="98f-54-zhY"/>
+                                            <constraint firstItem="frk-pd-MUu" firstAttribute="leading" secondItem="qDh-7J-zKP" secondAttribute="leading" id="fIi-tR-rOv"/>
+                                            <constraint firstItem="frk-pd-MUu" firstAttribute="top" secondItem="qDh-7J-zKP" secondAttribute="top" constant="10" id="xZ0-XP-JYz"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -769,17 +822,21 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                             <constraint firstItem="KB5-iE-yEh" firstAttribute="leading" secondItem="uuL-Zd-bng" secondAttribute="leading" id="gys-nQ-Cfv"/>
                             <constraint firstAttribute="trailing" secondItem="Pze-6r-m8i" secondAttribute="trailing" id="iwD-Eh-TBy"/>
                             <constraint firstItem="Qm9-ZN-SwG" firstAttribute="top" secondItem="KB5-iE-yEh" secondAttribute="bottom" constant="1" id="lmE-NF-Q3q"/>
-                            <constraint firstItem="t5d-WW-CjC" firstAttribute="top" secondItem="Qm9-ZN-SwG" secondAttribute="bottom" id="wkW-ed-0BP"/>
+                            <constraint firstItem="t5d-WW-CjC" firstAttribute="top" secondItem="Qm9-ZN-SwG" secondAttribute="bottom" constant="10" id="wkW-ed-0BP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Qm9-ZN-SwG" secondAttribute="trailing" id="zeV-JB-EMu"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sobre" image="Info" selectedImage="Info_selected" id="h4a-go-nbw"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="414" height="736"/>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="googleMapsImage" destination="eRc-da-M6c" id="BjP-ep-dno"/>
+                        <outlet property="wazeImage" destination="7Zb-GX-MQ3" id="b9c-LK-4Oe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kor-Y8-o1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-667" y="856"/>
+            <point key="canvasLocation" x="-667" y="968"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="H0n-9q-emx">
@@ -801,7 +858,6 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                         <segue destination="Z8B-54-FML" kind="relationship" relationship="viewControllers" id="5vG-1B-JhN"/>
                         <segue destination="ZyJ-7d-ygy" kind="relationship" relationship="viewControllers" id="H2c-Ol-jBe"/>
                         <segue destination="Djm-bB-fbE" kind="relationship" relationship="viewControllers" id="M4w-S2-qy7"/>
-                        <segue destination="sQQ-LJ-vyk" kind="relationship" relationship="viewControllers" id="VLC-fc-TAb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fhr-rd-VxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -814,6 +870,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
         <image name="Apple" width="37" height="37"/>
         <image name="Enter" width="25" height="25"/>
         <image name="Enter_selected" width="25" height="25"/>
+        <image name="Google Maps" width="32" height="32"/>
         <image name="Handshake" width="25" height="25"/>
         <image name="Handshake__selected" width="25" height="25"/>
         <image name="Home" width="25" height="25"/>
@@ -827,5 +884,6 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
         <image name="event_logo" width="762" height="812"/>
         <image name="iPhone" width="36" height="36"/>
         <image name="logo_fatec" width="801" height="417"/>
+        <image name="waze" width="36" height="36"/>
     </resources>
 </document>

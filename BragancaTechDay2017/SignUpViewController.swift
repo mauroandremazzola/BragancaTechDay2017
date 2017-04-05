@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UIGestureRecognizerDelegate {
     
@@ -18,11 +19,10 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var buttonSend: UIButton!
     @IBOutlet weak var textCity: UITextField!
     
-    var interests = [String]()
+    var interests = Interest.getAll
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        interests = ["iOS", "Android", "Desenvolvimento Híbrido", "Banco de dados", "IoT - Internet of Things", "Web Services"]
         scrollView.keyboardDismissMode = .interactive
         let tap = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
         tap.delegate = self
@@ -59,7 +59,7 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return interests[row]
+        return interests[row].description
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
@@ -69,5 +69,21 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     //mark action
     
     @IBAction func buttonSend(_ sender: UIButton) {
+        if isOk { return }
+            
+        let url = "http://www.bragancatechday.com.br/api/v1/user/create_user"
+        var param = [String : Any]()
+       
+        param["name"] = textName.text ?? ""
+        param["city"] = textCity.text ?? ""
+        param["email"] = textEmail.text ?? ""
+        param["company"] = textCompany.text ?? ""
+        param["option"] = interests[pikerInterest.selectedRow(inComponent: 1)].rawValue
+        
+        Alamofire.request(url, method: .post, parameters: param, encoding: JSONEncoding.default).responseJSON
+        { response in
+            debugPrint(response)
+        }
     }
+
 }
