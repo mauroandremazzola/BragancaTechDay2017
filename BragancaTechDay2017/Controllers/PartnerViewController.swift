@@ -18,7 +18,6 @@ class PartnerViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         initPartners()
         table.tableFooterView = UIView()
-        table.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,10 +33,7 @@ class PartnerViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PartnerCell", for: indexPath) as? PartnerCell ?? PartnerCell()
-        let partner = partners[indexPath.row]
-        cell.imageLogo.image = UIImage(named: partner.image)
-        cell.imageBackground.image =  UIImage(named: partner.image)
-        cell.selectionStyle = .none
+        cell.populate(partner: partners[indexPath.row])
         return cell
     }
     

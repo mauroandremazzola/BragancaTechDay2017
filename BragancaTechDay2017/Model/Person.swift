@@ -23,7 +23,3 @@ struct Person {
     }
     
 }
-
-//struct Inscrit : Person {
-//    
-//}

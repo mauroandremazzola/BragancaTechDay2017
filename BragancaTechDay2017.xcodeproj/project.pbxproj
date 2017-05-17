@@ -122,6 +122,7 @@
 		B6E9B1941ECC83F300D5628C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B6E9B1AE1ECC849600D5628C /* Extension */,
 				B6E9B1971ECC843A00D5628C /* LaunchScreen.storyboard */,
 				B6E9B1981ECC843A00D5628C /* Main.storyboard */,
 				B6E9B1991ECC843A00D5628C /* PartnerCell.swift */,
@@ -133,7 +134,6 @@
 		B6E9B1951ECC83FE00D5628C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B6E9B1AE1ECC849600D5628C /* Extension */,
 				B6E9B1A41ECC849100D5628C /* InfoViewController.swift */,
 				B6E9B1A51ECC849100D5628C /* PartnerViewController.swift */,
 				B6E9B1A61ECC849100D5628C /* SpeakerDetailViewController.swift */,

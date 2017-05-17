@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WNi-Sn-2wb">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,11 +21,11 @@
                         <viewControllerLayoutGuide type="bottom" id="iub-RV-9yE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lze-RV-dYE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsr-Tg-tG5">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="srz-A3-n5k"/>
                                 </constraints>
@@ -38,25 +38,25 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a2s-B4-ha3">
-                                <rect key="frame" x="0.0" y="65" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="65" width="414" height="622"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartnerCell" id="zsq-bQ-Tvp" customClass="PartnerCell" customModule="BragancaTechDay2017" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="150"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zsq-bQ-Tvp" id="ZHy-gC-Sbr">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3e-6z-9XF">
-                                                    <rect key="frame" x="0.0" y="10" width="320" height="129"/>
+                                                    <rect key="frame" x="0.0" y="10" width="414" height="129"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fatec" translatesAutoresizingMaskIntoConstraints="NO" id="zxC-iv-LWL">
-                                                            <rect key="frame" x="0.0" y="10" width="320" height="109"/>
+                                                            <rect key="frame" x="0.0" y="10" width="414" height="109"/>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fatec" translatesAutoresizingMaskIntoConstraints="NO" id="5So-ZK-PG0">
-                                                            <rect key="frame" x="30" y="20" width="260" height="89"/>
+                                                            <rect key="frame" x="30" y="20" width="354" height="89"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,87 +121,64 @@
                         <viewControllerLayoutGuide type="bottom" id="8sl-5H-7Wa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="STl-Lz-yk1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4wK-Ej-il1">
-                                <rect key="frame" x="0.0" y="69" width="320" height="450"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4wK-Ej-il1">
+                                <rect key="frame" x="0.0" y="69" width="414" height="618"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SpeakerCell" id="0kk-TL-U5D" customClass="SpeakerCell" customModule="BragancaTechDay2017" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="70"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0kk-TL-U5D" id="Vb1-px-u5b">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8fe-Jq-Fq0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SIa-yw-rA0">
+                                                    <rect key="frame" x="8" y="8" width="373" height="133.66666666666666"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDC-Kr-kqe">
-                                                            <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
-                                                            <subviews>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SIa-yw-rA0">
-                                                                    <rect key="frame" x="5" y="5" width="277" height="59"/>
-                                                                    <subviews>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OGq-TJ-khL">
-                                                                            <rect key="frame" x="0.0" y="4.5" width="50" height="50"/>
-                                                                            <constraints>
-                                                                                <constraint firstAttribute="width" constant="50" id="l6o-Ny-cVC">
-                                                                                    <variation key="heightClass=regular-widthClass=regular" constant="100"/>
-                                                                                </constraint>
-                                                                                <constraint firstAttribute="width" secondItem="OGq-TJ-khL" secondAttribute="height" id="uhs-P3-n5c"/>
-                                                                            </constraints>
-                                                                            <userDefinedRuntimeAttributes>
-                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
-                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                                    <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                                                </userDefinedRuntimeAttribute>
-                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                                    <real key="value" value="0.5"/>
-                                                                                </userDefinedRuntimeAttribute>
-                                                                            </userDefinedRuntimeAttributes>
-                                                                        </imageView>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Fvd-sl-X3h">
-                                                                            <rect key="frame" x="55" y="19" width="222" height="21.5"/>
-                                                                            <subviews>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0da-Mr-On4">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="222" height="21.5"/>
-                                                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                                                                    <nil key="highlightedColor"/>
-                                                                                    <variation key="heightClass=regular-widthClass=compact">
-                                                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                                                                    </variation>
-                                                                                    <variation key="heightClass=regular-widthClass=regular">
-                                                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                                                    </variation>
-                                                                                </label>
-                                                                            </subviews>
-                                                                        </stackView>
-                                                                    </subviews>
-                                                                </stackView>
-                                                            </subviews>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OGq-TJ-khL">
+                                                            <rect key="frame" x="0.0" y="42" width="49.666666666666664" height="50"/>
                                                             <constraints>
-                                                                <constraint firstItem="SIa-yw-rA0" firstAttribute="leading" secondItem="wDC-Kr-kqe" secondAttribute="leading" constant="5" id="3rm-1F-fWz"/>
-                                                                <constraint firstAttribute="trailing" secondItem="SIa-yw-rA0" secondAttribute="trailing" constant="5" id="54H-Al-iwd"/>
-                                                                <constraint firstAttribute="bottom" secondItem="SIa-yw-rA0" secondAttribute="bottom" constant="5" id="ded-za-AK5"/>
-                                                                <constraint firstItem="SIa-yw-rA0" firstAttribute="top" secondItem="wDC-Kr-kqe" secondAttribute="top" constant="5" id="xgq-Ag-uuU"/>
+                                                                <constraint firstAttribute="height" priority="999" constant="50" id="NNI-aT-hO2"/>
+                                                                <constraint firstAttribute="width" secondItem="OGq-TJ-khL" secondAttribute="height" multiplier="1:1" id="W18-2e-NPj"/>
                                                             </constraints>
-                                                        </view>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="0.5"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0da-Mr-On4">
+                                                            <rect key="frame" x="59.666666666666657" y="56.333333333333329" width="313.33333333333337" height="21.333333333333343"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact">
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                            </variation>
+                                                            <variation key="heightClass=regular-widthClass=regular">
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                            </variation>
+                                                        </label>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstItem="8fe-Jq-Fq0" firstAttribute="top" secondItem="Vb1-px-u5b" secondAttribute="top" id="4jg-TA-yZf"/>
-                                                <constraint firstItem="8fe-Jq-Fq0" firstAttribute="leading" secondItem="Vb1-px-u5b" secondAttribute="leading" id="Th2-3E-pmc"/>
-                                                <constraint firstAttribute="trailing" secondItem="8fe-Jq-Fq0" secondAttribute="trailing" id="cG8-fH-EUq"/>
-                                                <constraint firstAttribute="bottom" secondItem="8fe-Jq-Fq0" secondAttribute="bottom" id="pLU-Kw-F7s"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="SIa-yw-rA0" secondAttribute="bottomMargin" id="G9H-Fd-M3y"/>
+                                                <constraint firstItem="SIa-yw-rA0" firstAttribute="leadingMargin" secondItem="Vb1-px-u5b" secondAttribute="leadingMargin" id="HM6-g0-77E"/>
+                                                <constraint firstAttribute="trailing" secondItem="SIa-yw-rA0" secondAttribute="trailingMargin" id="nS7-eT-nO6"/>
+                                                <constraint firstItem="SIa-yw-rA0" firstAttribute="topMargin" secondItem="Vb1-px-u5b" secondAttribute="topMargin" id="tw6-7G-2nD"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="imageHeight" destination="NNI-aT-hO2" id="f3Y-aq-cUn"/>
                                             <outlet property="imagePerson" destination="OGq-TJ-khL" id="te3-z3-hEW"/>
                                             <outlet property="labelName" destination="0da-Mr-On4" id="ta5-g0-Rer"/>
                                         </connections>
@@ -229,34 +206,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7PX-Gp-Uv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1232" y="910"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="hGr-DL-5yh">
-            <objects>
-                <tableViewController id="5P2-Ia-Bb5" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TZW-4U-97I">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="VNy-4D-vaT">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VNy-4D-vaT" id="QoM-qT-aVj">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="5P2-Ia-Bb5" id="fNI-Dg-XqV"/>
-                            <outlet property="delegate" destination="5P2-Ia-Bb5" id="PDM-p8-xeg"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o8e-Ip-0qX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1208" y="1698"/>
         </scene>
         <!--Sobre-->
         <scene sceneID="Yn1-Yp-1PK">
@@ -287,16 +236,16 @@
                                 <rect key="frame" x="16" y="65" width="288" height="876"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDh-7J-zKP">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="972"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="971.66666666666674"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="frk-pd-MUu">
-                                                <rect key="frame" x="0.0" y="10" width="288" height="962.5"/>
+                                                <rect key="frame" x="0.0" y="10" width="288" height="962"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uis-Z6-rJj">
-                                                        <rect key="frame" x="3" y="0.0" width="282.5" height="107"/>
+                                                        <rect key="frame" x="2.6666666666666572" y="0.0" width="282.66666666666663" height="106.66666666666666"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="BRAGANÇA TECH DAY 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbE-gO-Gag">
-                                                                <rect key="frame" x="0.0" y="0.0" width="282.5" height="26"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="282.66666666666663" height="26"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=regular-widthClass=regular">
@@ -304,7 +253,7 @@
                                                                 </variation>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 de Maio - Fatec Bragança Paulista" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8E-kS-qbp">
-                                                                <rect key="frame" x="3" y="36" width="276" height="20.5"/>
+                                                                <rect key="frame" x="3.3333333333333428" y="36" width="276" height="20.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=regular-widthClass=regular">
@@ -312,7 +261,7 @@
                                                                 </variation>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. das Indústrias, 130 - Uberaba, Bragança Paulista - SP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-cJ-lXn">
-                                                                <rect key="frame" x="16.5" y="66.5" width="249" height="40.5"/>
+                                                                <rect key="frame" x="16.999999999999986" y="66.333333333333343" width="249" height="40.333333333333314"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="heightClass=regular-widthClass=regular">
@@ -325,7 +274,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Mn7-od-d06">
-                                                        <rect key="frame" x="0.0" y="117" width="288" height="250"/>
+                                                        <rect key="frame" x="0.0" y="116.66666666666667" width="288" height="250"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="250" id="Bkv-1X-2UM">
                                                                 <variation key="heightClass=regular-widthClass=regular" constant="400"/>
@@ -333,7 +282,7 @@
                                                         </constraints>
                                                     </mapView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encontre também:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt8-Ii-pGf">
-                                                        <rect key="frame" x="74" y="377" width="140.5" height="20"/>
+                                                        <rect key="frame" x="74.000000000000014" y="376.66666666666669" width="140.33333333333337" height="20"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
@@ -342,10 +291,10 @@
                                                         </variation>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vkI-Sw-ITr">
-                                                        <rect key="frame" x="79" y="407" width="130" height="50"/>
+                                                        <rect key="frame" x="79" y="406.66666666666663" width="130" height="49.999999999999943"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google Maps" translatesAutoresizingMaskIntoConstraints="NO" id="eRc-da-M6c">
-                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="49.999999999999943"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="eRc-da-M6c" secondAttribute="height" id="rSr-VY-S38"/>
                                                                     <constraint firstAttribute="width" constant="50" id="tJq-Gk-Mjd">
@@ -354,7 +303,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waze" translatesAutoresizingMaskIntoConstraints="NO" id="7Zb-GX-MQ3">
-                                                                <rect key="frame" x="80" y="0.0" width="50" height="50"/>
+                                                                <rect key="frame" x="80" y="0.0" width="50" height="49.999999999999943"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="50" id="U1v-G3-Abv">
                                                                         <variation key="heightClass=regular-widthClass=regular" constant="100"/>
@@ -365,7 +314,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtP-tP-xSC">
-                                                        <rect key="frame" x="0.0" y="467" width="288" height="495.5"/>
+                                                        <rect key="frame" x="0.0" y="466.66666666666657" width="288" height="495.33333333333343"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="usl-O0-Yd4"/>
                                                         </constraints>
@@ -473,11 +422,11 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                         <viewControllerLayoutGuide type="bottom" id="PSD-7l-whR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kUE-hq-ojx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqB-nt-uuH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="LM7-AJ-wvJ"/>
                                 </constraints>
@@ -490,7 +439,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="os vídeos do evento estarão disponíveis aqui" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REv-Hb-aRv">
-                                <rect key="frame" x="21" y="292.5" width="278" height="22"/>
+                                <rect key="frame" x="25" y="376.66666666666669" width="364" height="22"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -521,25 +470,24 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                         <viewControllerLayoutGuide type="bottom" id="We1-Jk-UDP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I1W-IZ-LOm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hQ7-kE-wSK">
-                                <rect key="frame" x="16" y="30" width="288" height="200"/>
+                                <rect key="frame" x="20" y="30.000000000000014" width="374" height="219.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="S8v-OK-g5F">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-sz-dtc">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="GRN-YO-NjU"/>
+                                                    <constraint firstAttribute="height" constant="50" id="GRN-YO-NjU">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" secondItem="T8h-sz-dtc" secondAttribute="height" id="sjI-xH-6aZ"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="25"/>
-                                                    </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                         <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -550,7 +498,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ie4-i0-1ze">
-                                                <rect key="frame" x="60" y="14.5" width="228" height="21.5"/>
+                                                <rect key="frame" x="60" y="14.333333333333336" width="314" height="21.333333333333336"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -564,54 +512,68 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="desc" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tz5-Hh-ttz">
-                                        <rect key="frame" x="0.0" y="60" width="288" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="59.999999999999993" width="374" height="20.333333333333321"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                        </variation>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n73-3b-jsC">
-                                        <rect key="frame" x="0.0" y="90.5" width="288" height="1"/>
+                                        <rect key="frame" x="0.0" y="90.333333333333329" width="374" height="1"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="9GF-fi-W2m"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que a faculdade não ensina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDn-Ma-ltc">
-                                        <rect key="frame" x="0.0" y="101.5" width="288" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="101.33333333333334" width="374" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                        </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:00" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fl-ut-zJp">
-                                        <rect key="frame" x="0.0" y="132" width="288" height="17"/>
+                                        <rect key="frame" x="0.0" y="131.66666666666666" width="374" height="16.666666666666686"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                        </variation>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctB-gk-usH">
-                                        <rect key="frame" x="0.0" y="159" width="288" height="1"/>
+                                        <rect key="frame" x="0.0" y="158.33333333333334" width="374" height="1"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="2pm-F5-JUg"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3F-Yy-mGj">
-                                        <rect key="frame" x="0.0" y="170" width="288" height="30"/>
+                                        <rect key="frame" x="0.0" y="169.33333333333334" width="374" height="50"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3cE-yz-S51">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LinkedIn" translatesAutoresizingMaskIntoConstraints="NO" id="rrU-p6-aCP">
-                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="Pae-BN-O9I"/>
+                                                            <constraint firstAttribute="height" constant="50" id="Pae-BN-O9I">
+                                                                <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                                                            </constraint>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ver perfil no LinkedIn" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRp-OJ-vAw">
-                                                        <rect key="frame" x="35" y="0.0" width="253" height="30"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                                        <rect key="frame" x="55" y="0.0" width="319" height="50"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
                                                 <constraints>
@@ -683,12 +645,12 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
         <image name="Handshake__selected" width="25" height="25"/>
         <image name="Info" width="25" height="25"/>
         <image name="Info_selected" width="25" height="25"/>
-        <image name="LinkedIn" width="48" height="48"/>
+        <image name="LinkedIn" width="32" height="32"/>
         <image name="Speaker" width="25" height="25"/>
         <image name="Speaker_selected" width="25" height="25"/>
-        <image name="Video" width="37" height="37"/>
-        <image name="Video_Selected" width="37" height="37"/>
+        <image name="Video" width="33" height="33"/>
+        <image name="Video_Selected" width="33" height="33"/>
         <image name="logo_fatec" width="801" height="417"/>
-        <image name="waze" width="36" height="36"/>
+        <image name="waze" width="32" height="32"/>
     </resources>
 </document>

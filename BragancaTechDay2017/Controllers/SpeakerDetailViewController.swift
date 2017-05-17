@@ -37,6 +37,8 @@ class SpeakerDetailViewController: UIViewController {
     }
 
     func setupUI() {
+        view.layoutIfNeeded()
+        imagePerson.cornerRadius = imagePerson.frame.height / 2
         imagePerson.image = UIImage(named: person?.image ?? "")
         labelName.text = person?.name
         labelDesc.text = person?.desc

@@ -18,6 +18,10 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         initSpekears()
         table.tableFooterView = UIView()
+        table.estimatedRowHeight = 150
+        table.rowHeight = UITableViewAutomaticDimension
+        view.setNeedsUpdateConstraints()
+        view.layoutIfNeeded()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +37,10 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SpeakerCell", for: indexPath) as? SpeakerCell ?? SpeakerCell()
+        
+        cell.configure(horizontalSizeClass: traitCollection.horizontalSizeClass,
+                       verticalSizeClass: traitCollection.verticalSizeClass)
+        
         cell.populate(person: speakers[indexPath.row])
         return cell
     }

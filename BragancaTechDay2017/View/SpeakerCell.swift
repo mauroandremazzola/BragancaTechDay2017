@@ -12,12 +12,11 @@ class SpeakerCell: UITableViewCell {
 
     @IBOutlet weak var imagePerson: UIImageView!
     @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var imageHeight: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        imagePerson.cornerRadius = imagePerson.frame.width / 2
         selectionStyle = .none
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -27,6 +26,17 @@ class SpeakerCell: UITableViewCell {
     func populate(person: Person) {
         labelName.text = person.name
         imagePerson.image = UIImage(named: person.image)
+    }
+    
+    func configure(horizontalSizeClass: UIUserInterfaceSizeClass, verticalSizeClass: UIUserInterfaceSizeClass) {
+        if(horizontalSizeClass == .regular && verticalSizeClass == .regular){
+            imageHeight.constant = 100
+        }else{
+            imageHeight.constant = 50
+        }
+        setNeedsUpdateConstraints()
+        layoutIfNeeded()
+        imagePerson.cornerRadius = imagePerson.frame.height / 2
     }
 
 }
