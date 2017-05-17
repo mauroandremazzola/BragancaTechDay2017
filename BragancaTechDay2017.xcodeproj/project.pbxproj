@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B67CCFAE1E9C0CF4001A9349 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67CCFAD1E9C0CF4001A9349 /* MapKit.framework */; };
+		B68B026A1ECCCBED00ECE5D2 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B02691ECCCBED00ECE5D2 /* PersonData.swift */; };
+		B68B026C1ECCD26100ECE5D2 /* PartnerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B026B1ECCD26100ECE5D2 /* PartnerData.swift */; };
 		B6DC37311ECC869400CEDBB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC372E1ECC869400CEDBB1 /* AppDelegate.swift */; };
 		B6DC37321ECC869400CEDBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DC372F1ECC869400CEDBB1 /* Assets.xcassets */; };
 		B6DC37331ECC869400CEDBB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6DC37301ECC869400CEDBB1 /* Info.plist */; };
@@ -31,6 +33,8 @@
 		188EDB8FE4D0DF0AF155B203 /* Pods-BragancaTechDay2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BragancaTechDay2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-BragancaTechDay2017/Pods-BragancaTechDay2017.release.xcconfig"; sourceTree = "<group>"; };
 		B67CCFAD1E9C0CF4001A9349 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B6838C591E93D2BD009FD621 /* BragancaTechDay2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BragancaTechDay2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68B02691ECCCBED00ECE5D2 /* PersonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonData.swift; path = BragancaTechDay2017/Data/PersonData.swift; sourceTree = "<group>"; };
+		B68B026B1ECCD26100ECE5D2 /* PartnerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PartnerData.swift; path = BragancaTechDay2017/Data/PartnerData.swift; sourceTree = "<group>"; };
 		B6DC372E1ECC869400CEDBB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BragancaTechDay2017/AppDelegate.swift; sourceTree = "<group>"; };
 		B6DC372F1ECC869400CEDBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BragancaTechDay2017/Assets.xcassets; sourceTree = "<group>"; };
 		B6DC37301ECC869400CEDBB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BragancaTechDay2017/Info.plist; sourceTree = "<group>"; };
@@ -98,6 +102,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B68B02661ECCCB4800ECE5D2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B68B02691ECCCBED00ECE5D2 /* PersonData.swift */,
+				B68B026B1ECCD26100ECE5D2 /* PartnerData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		B6DC372D1ECC85AE00CEDBB1 /* BragancaTechDay2017 */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +125,7 @@
 		B6E9B1931ECC833B00D5628C /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				B68B02661ECCCB4800ECE5D2 /* Data */,
 				B6E9B1941ECC83F300D5628C /* View */,
 				B6E9B1961ECC840600D5628C /* Model */,
 				B6E9B1951ECC83FE00D5628C /* Controller */,
@@ -301,9 +315,11 @@
 			files = (
 				B6DC37311ECC869400CEDBB1 /* AppDelegate.swift in Sources */,
 				B6E9B1AD1ECC849100D5628C /* VideosViewController.swift in Sources */,
+				B68B026C1ECCD26100ECE5D2 /* PartnerData.swift in Sources */,
 				B6E9B1A21ECC845700D5628C /* Person.swift in Sources */,
 				B6E9B1B01ECC84B300D5628C /* UIViewExtension.swift in Sources */,
 				B6E9B1A11ECC845700D5628C /* Partner.swift in Sources */,
+				B68B026A1ECCCBED00ECE5D2 /* PersonData.swift in Sources */,
 				B6E9B19E1ECC843A00D5628C /* SpeakerCell.swift in Sources */,
 				B6E9B1AB1ECC849100D5628C /* SpeakerDetailViewController.swift in Sources */,
 				B6E9B19D1ECC843A00D5628C /* PartnerCell.swift in Sources */,
