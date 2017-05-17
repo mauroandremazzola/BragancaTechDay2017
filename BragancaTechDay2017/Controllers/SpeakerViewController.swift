@@ -18,9 +18,6 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         initSpekears()
         table.tableFooterView = UIView()
-        table.rowHeight = UITableViewAutomaticDimension
-        table.estimatedRowHeight = 90
-        table.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,18 +33,15 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SpeakerCell", for: indexPath) as? SpeakerCell ?? SpeakerCell()
-        let person = speakers[indexPath.row]
-        cell.labelName.text = person.name
-        cell.labelDesc.text = person.desc
-        cell.imagePerson.image = UIImage(named: person.image)
-        cell.selectionStyle = .none
+        cell.populate(person: speakers[indexPath.row])
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         UIApplication.shared.open(speakers[indexPath.row].bio, options: [String : Any](), completionHandler: nil)
+        let controller = SpeakerDetailViewController.instance(person: speakers[indexPath.row])
+        navigationController?.pushViewController(controller, animated: true)
     }
-    
+        
     //mark methods
     
     func initSpekears() {
@@ -64,6 +58,10 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
         speakers.append(Person(name: "Fernanda Saraiva", desc: "Community Program Manager at Microsoft.", image: "fernanda", bio:URL(string:"https://www.linkedin.com/in/fesaraiva/")))
         
         speakers.append(Person(name: "Henrique Rusca", desc: "Estudou Engenharia Elétrica e Ciência da Computação em Duke University. Grande conhecimento em iOS e Diretor Executivo de Tecnologia na empresa its4company em Miami", image: "henrique", bio:URL(string:"https://www.linkedin.com/in/henrique-rusca-queiroz-de-moraes-20369a58/")))
+        
+        speakers.append(Person(name: "Marcelo Antonio Maria Junior", desc: "Atua como desenvolvedor iOS, possui conhecimento em desenvolvimento de jogos em javascript.", image: "marcelo", bio:URL(string:"https://www.linkedin.com/in/marcelo-antonio-maria-junior/")))
+        
+        speakers.append(Person(name: "Vitor A. Vale", desc: "Bacharel em Sistemas de Informação, desenvolvedor full-stack, com ampla experiência em tecnologias Microsoft e Javascript. Associado MTAC Brasil, com foco na difusão de conhecimento e transformação social através da tecnologia.", image: "vitor", bio:URL(string:"https://www.linkedin.com/in/vitoravale/")))
     }
     
 }

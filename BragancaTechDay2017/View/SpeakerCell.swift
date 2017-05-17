@@ -12,15 +12,21 @@ class SpeakerCell: UITableViewCell {
 
     @IBOutlet weak var imagePerson: UIImageView!
     @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelDesc: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        imagePerson.cornerRadius = imagePerson.frame.width / 2
+        selectionStyle = .none
         // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    
+    func populate(person: Person) {
+        labelName.text = person.name
+        imagePerson.image = UIImage(named: person.image)
     }
 
 }

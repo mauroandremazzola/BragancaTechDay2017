@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
-class InfoViewController: UIViewController {
+class InfoViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate{
 
    
     @IBOutlet weak var googleMapsImage: UIImageView!
     @IBOutlet weak var wazeImage: UIImageView!
+    @IBOutlet weak var mapView: MKMapView!
+    
+     let location = CLLocation(latitude: -22.9225, longitude: -46.5460)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,8 @@ class InfoViewController: UIViewController {
         wazeImage.isUserInteractionEnabled = true
         googleMapsImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(googleMapsImageTapped)))
         wazeImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(wazeImageTapped)))
+        mapView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(openMapForPlace)))
+        initMap()
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +34,36 @@ class InfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //map
+    
+    func initMap() {
+        self.mapView.showsUserLocation = true
+        self.mapView.mapType = .hybrid
+        let annotation = MKPointAnnotation()
+        annotation.title = "Fatec Bragança Paulista"
+        annotation.coordinate = location.coordinate
+        mapView.addAnnotation(annotation)
+        
+        let regionRadius: CLLocationDistance = 200
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+                                                                  regionRadius * 2.0, regionRadius * 2.0)
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    func openMapForPlace() {
+        let regionDistance:CLLocationDistance = 500
+        let coordinates = location.coordinate
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Fatec Bragança Paulista"
+        mapItem.openInMaps(launchOptions: options)
+    }
+
     //mark method
  
     func googleMapsImageTapped()  {
