@@ -12,11 +12,13 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     @IBOutlet weak var table: UITableView!
     
-    var speakers = [Person]();
+    var speakers = [Person]()
+    var lectures = [Lecture]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        speakers = PersonData.getSpekears()
+        lectures = LectureData.getLectures()
+        speakers = lectures.map{$0.speaker}
         table.tableFooterView = UIView()
         table.estimatedRowHeight = 150
         table.rowHeight = UITableViewAutomaticDimension
@@ -46,7 +48,7 @@ class SpeakerViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let controller = SpeakerDetailViewController.instance(person: speakers[indexPath.row])
+        let controller = SpeakerDetailViewController.instance(lecture: lectures[indexPath.row])
         navigationController?.pushViewController(controller, animated: true)
     }
     

@@ -21,5 +21,4 @@ struct Person {
         self.desc = desc
         self.bio = bio ?? URL(string: "http://www.bragancatechday.com.br")!
     }
-    
 }

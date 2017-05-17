@@ -474,7 +474,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hQ7-kE-wSK">
-                                <rect key="frame" x="20" y="30.000000000000014" width="374" height="219.33333333333337"/>
+                                <rect key="frame" x="20" y="30.000000000000014" width="374" height="215.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="S8v-OK-g5F">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
@@ -512,23 +512,23 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="desc" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tz5-Hh-ttz">
-                                        <rect key="frame" x="0.0" y="59.999999999999993" width="374" height="20.333333333333321"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="59.999999999999993" width="374" height="16.333333333333321"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
                                         </variation>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n73-3b-jsC">
-                                        <rect key="frame" x="0.0" y="90.333333333333329" width="374" height="1"/>
+                                        <rect key="frame" x="0.0" y="86.333333333333329" width="374" height="1"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="9GF-fi-W2m"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que a faculdade não ensina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDn-Ma-ltc">
-                                        <rect key="frame" x="0.0" y="101.33333333333334" width="374" height="20.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="97.333333333333343" width="374" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -537,7 +537,7 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:00" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fl-ut-zJp">
-                                        <rect key="frame" x="0.0" y="131.66666666666666" width="374" height="16.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="127.66666666666666" width="374" height="16.666666666666686"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -546,14 +546,14 @@ O evento é gratuito e acontecerá dia 20 de maio , na Fatec - Faculdade de Tecn
                                         </variation>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctB-gk-usH">
-                                        <rect key="frame" x="0.0" y="158.33333333333334" width="374" height="1"/>
+                                        <rect key="frame" x="0.0" y="154.33333333333334" width="374" height="1"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="2pm-F5-JUg"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3F-Yy-mGj">
-                                        <rect key="frame" x="0.0" y="169.33333333333334" width="374" height="50"/>
+                                        <rect key="frame" x="0.0" y="165.33333333333334" width="374" height="50"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3cE-yz-S51">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>

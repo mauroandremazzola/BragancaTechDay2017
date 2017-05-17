@@ -17,11 +17,11 @@ class SpeakerDetailViewController: UIViewController {
     @IBOutlet weak var labelHour: UILabel!
     @IBOutlet weak var viewLinkedIn: UIView!
     
-    var person: Person?
+    var lecture: Lecture?
     
-    class func instance(person: Person) -> SpeakerDetailViewController {
+    class func instance(lecture: Lecture) -> SpeakerDetailViewController {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SpeakerDetailViewController") as? SpeakerDetailViewController ?? SpeakerDetailViewController()
-        controller.person = person
+        controller.lecture = lecture
         return controller
     }
     
@@ -39,13 +39,15 @@ class SpeakerDetailViewController: UIViewController {
     func setupUI() {
         view.layoutIfNeeded()
         imagePerson.cornerRadius = imagePerson.frame.height / 2
-        imagePerson.image = UIImage(named: person?.image ?? "")
-        labelName.text = person?.name
-        labelDesc.text = person?.desc
+        imagePerson.image = UIImage(named: lecture?.speaker.image ?? "")
+        labelName.text = lecture?.speaker.name
+        labelDesc.text = lecture?.speaker.desc
+        labelTitle.text = lecture?.title
+        labelHour.text = lecture?.hour
     }
     
     func didTapviewLinkedIn(_ sender: UITapGestureRecognizer) {
-        if let bio = person?.bio {
+        if let bio = lecture?.speaker.bio {
             UIApplication.shared.open(bio, options: [String : Any](), completionHandler: nil)
         }
     }
